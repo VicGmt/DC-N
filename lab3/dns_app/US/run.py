@@ -12,9 +12,13 @@ import json
 app = Flask(__name__)
 
 
+@app.route('/')
+def US_home():
+    return 'Welcome to US'
+
 
 @app.route('/fibonacci', methods = ["GET"])
-def US_route():
+def US_fibo():
 
     # gathering all string parameters
 
