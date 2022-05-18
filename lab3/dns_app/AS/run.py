@@ -8,7 +8,6 @@ from flask import Response
 from time import gmtime, strftime
 import json
 import os
-import requests
 
 app = Flask(__name__)
 
